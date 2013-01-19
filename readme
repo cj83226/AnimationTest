@@ -213,6 +213,8 @@ android动画解析
 (3) 设置动画持续时间
 	myAnimation_Rotate.setDuration(3000);
     //设置时间持续时间为 3000毫秒
+
+//2013.1.19 使用git 管理此工程
                      
 
 
