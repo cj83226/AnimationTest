@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    android:layout_width="500px"
+	android:id="@+id/layout2" 
+	android:layout_height="500px"
+	android:layout_marginTop="100px"
+	android:layout_marginLeft="100px"
+	android:background="#765432" xmlns:android="http://schemas.android.com/apk/res/android">
+	<Button android:id="@+id/button2" android:layout_width="118px"
+		android:layout_height="wrap_content" android:text="Go to Layout1">
+	</Button>
+	<TextView android:id="@+id/text2" android:textSize="24sp"
+		android:layout_width="186px" android:layout_height="50px"
+		android:textColor="#543298" android:text="888888"
+		android:layout_below="@+id/button2">
+	</TextView>
+</RelativeLayout>

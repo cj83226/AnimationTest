@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/hello"
+    />
+    <Button android:id="@+id/btnTranslate" android:text="移动补间动画" android:layout_width="fill_parent" android:layout_height="wrap_content"></Button>
+    <Button android:id="@+id/btnScale" android:text="缩放补间动画" android:layout_width="fill_parent" android:layout_height="wrap_content"></Button>
+    <Button android:id="@+id/btnRotate" android:text="旋转补间动画" android:layout_width="fill_parent" android:layout_height="wrap_content"></Button>    
+    <Button android:id="@+id/btnAlpha" android:text="透明补间动画" android:layout_width="fill_parent" android:layout_height="wrap_content"></Button>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:gravity="center">
+    <ImageView android:id="@+id/imgShow" android:layout_width="100dp" android:layout_height="100dp"></ImageView>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="400" android:drawable="@drawable/photo_focus20" />
+    <item android:duration="400" android:drawable="@drawable/photo_focus40" />
+    <item android:duration="400" android:drawable="@drawable/photo_focus60" />
+    <item android:duration="400" android:drawable="@drawable/photo_focus80" />
+    <item android:duration="400" android:drawable="@drawable/photo_focus100" />
+</animation-list>

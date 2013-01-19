@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">ActivityAnimation</string>
+	<string name="txt_main">第一页 </string>
+    <string name="txt_next">第二页 </string>
+    <string name="txt_last">第三页 </string>
+    <string name="mShake">控件抖动效果</string>
+    
+    <string name="anim">动画进度条</string>
+	<string name="color">颜色进度条</string>
+	<string name="icon">图片进度条</string>
+	<string name="loading">正在加载数据请稍后……</string>
+</resources>

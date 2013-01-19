@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:orientation="vertical" >
+
+    <!-- 拒绝子view接受焦点 -->
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_alignParentRight="true" >
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/ic_launcher" />
+
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:layout_alignBottom="@+id/image"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/image" >
+
+            <TextView
+                android:id="@+id/avgValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/maxValue"
+                android:textColor="@android:color/background_light"
+                android:text="平均值" />
+
+            <TextView
+                android:id="@+id/maxValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/background_light"
+                android:text="最高值" />
+
+            <TextView
+                android:id="@+id/how_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:layout_below="@+id/avgValue"
+                android:textColor="@android:color/background_light"
+                
+                android:text="持续时间" />
+
+            <TextView
+                android:id="@+id/last_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/how_time"
+                android:textColor="@android:color/background_light"
+                android:text="最后时间" />
+			<Button
+		        android:id="@+id/del"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentRight="true"
+                android:textColor="@android:color/background_light"
+                android:enabled="true"
+               android:visibility="gone"
+		        android:text="删除" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    
+
+</RelativeLayout>
